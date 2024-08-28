@@ -1,0 +1,35 @@
+<div class="wrapper">
+  <div class="container">
+    <!--  WELCOME  -->
+    <div id="welcome">
+      <h1>
+        <span i18n> Hello there, </span>
+        <span>{{ title }}</span>
+        <span i18n="toolbar header|Welcome message">Welcome demo 👋</span>
+      </h1>
+
+      <p i18n="Simple message example@@message.simple">A simple message.</p>
+
+      <p i18n="Argument message example@@message.argument">
+        Hi, {{ name }}! 👋
+      </p>
+
+      <p i18n="Plural message example@@message.plural">
+        {count, plural, one {{{count}} item} other {{{count}} items}}
+      </p>
+
+      <p i18n="Gender message example@@message.gender">
+        {gender, select, male {Mr {{ name }}} female {Mrs {{ name }}} other
+        {Client {{ name }}}}
+      </p>
+
+      <p i18n="Formatted number message example@@message.number-format">
+        Formatted number: {{ amount | number : '.2' }}
+      </p>
+
+      <p i18n="Formatted date message example@@message.date-format">
+        Formatted date: {{ currentDate | date : 'fullDate' }}
+      </p>
+    </div>
+  </div>
+</div>
