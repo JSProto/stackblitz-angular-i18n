@@ -7,7 +7,7 @@ import {
   ViewContainerRef,
   inject,
 } from '@angular/core'
-import { WelcomeComponent } from '../welcome/welcome.component'
+import { WelcomeComponent } from './welcome/welcome.component'
 
 @Component({
   standalone: true,

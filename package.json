@@ -4,9 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:fr": "ng serve --configuration=development,fr",
-    "build": "ng build --localize",
-    "build:fr": "ng build --configuration=production,fr",
+    "start:fr": "ng serve --configuration=fr",
+    "build": "ng build --localize --configuration=development",
+    "build:fr": "ng build --configuration=development,fr",
     "extract": "ng extract-i18n --output-path src/locale"
   },
   "dependencies": {
