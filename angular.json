@@ -12,7 +12,7 @@
       "schematics": {},
       "sourceRoot": "src",
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": "en",
         "locales": {
           "fr": {
             "translation": "src/locale/messages.fr.xlf"
@@ -25,7 +25,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "configurations": {
             "en": {
-              "localize": ["en-US"]
+              "localize": ["en"]
             },
             "fr": {
               "localize": ["fr"]
