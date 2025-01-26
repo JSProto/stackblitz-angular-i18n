@@ -1,6 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core'
 import { DecimalPipe, DatePipe } from '@angular/common'
-import { $localize } from '@angular/localize/init'
 
 @Component({
     selector: 'welcome',
