@@ -19,10 +19,9 @@ class DynamicComponent {
 }
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  standalone: true,
-  imports: [WelcomeComponent],
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    imports: [WelcomeComponent]
 })
 export class AppComponent implements OnInit, OnChanges, DoCheck {
   private vcr = inject(ViewContainerRef)
